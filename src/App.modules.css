@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  border: 1px solid #000;
+  margin: 20px 100px;
+  border-radius: 20px;
+  background-color: #e4e0e03f;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.button {
+  background-color: #6ae809;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #6ae809a3;
+  transform: scale(1.1);
+}
+
+.textError{
+  color: red;
+}
+
+.Card {
+  text-align: center;
+  border: 1px solid #000;
+  margin: 20px 100px;
+  border-radius: 50px;
+  background-color: rgba(149, 155, 155, 0.405);
+  color: #1f201e;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(0, 0, 255, 0.5), 0 0 15px rgba(255, 0, 0, 0.5);
+  animation: flash 3s infinite;
+}
+
+@keyframes flash {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(0, 0, 255, 0.5), 0 0 15px rgba(255, 0, 0, 0.5);
+  }
+  50% {
+   box-shadow: none;
+  }
+  100% {
+   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(0, 0, 255, 0.5), 0 0 15px rgba(255, 0, 0, 0.5);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
